@@ -1,0 +1,14 @@
+.git
+.github
+.fleet
+.fleet-deploy.log
+*.log
+.terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+out
+terraform.tfvars
+*.auto.tfvars
+.env

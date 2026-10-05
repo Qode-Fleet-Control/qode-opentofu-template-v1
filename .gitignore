@@ -1,3 +1,23 @@
-.env
 .fleet/
+*.log
 .fleet-deploy.log
+
+# --- OpenTofu (same files as Terraform) ---
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+.tofurc
+terraform.rc
+# local variable values (may hold secrets); terraform.tfvars.example is committed
+terraform.tfvars
+*.auto.tfvars
+# local_file output written by `tofu apply`
+out/
